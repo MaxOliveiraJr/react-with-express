@@ -27,6 +27,8 @@ if (process.env.NODE_ENV != "development") {
         })
     })
 }
-app.listen(3000, () => {
-    console.log("Running in ", "http://localhost:" + 3000)
+
+
+app.listen(3001, () => {
+    console.log("Running in ", "http://localhost:" + 3001)
 })
